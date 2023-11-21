@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    background-color:#2b2b2b;
+    text-align:center;
+    padding:25px;
+    font-size:18px;
+    width: 100%;
+    height: 10px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0px auto;
+    max-width: 960px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    padding: 10px;
+    background: #000;
+}
+.inner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul#main-menu{
+    display: flex;
+   
+}
+ul#main-menu a{
+    text-transform: uppercase;
+    /* padding: 10px 20px; */
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    margin-left: 70px;
+    
+}
+ul#main-menu a:hover{
+    text-transform: uppercase;
+    /* padding: 10px 20px; */
+    color: #73faea;
+    display: block;
+    font-weight: bold;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+   }
+#main-menu li > .sub-menu {
+    display: none;
+    position: absolute;
+}
+#main-menu li{
+    position: relative;
+    
+}
+#main-menu li ul {
+        width: 400px;
+        height: 40px;
+        text-decoration: none;
+        text-align: left;
+        color: #f4eded;
+        display: block;
+        text-transform: none;
+      
+}
+.container #main-menu li:hover .sub-menu{
+    display: block;
+    color: #000;
+   
+}
+#banner{
+    background: url(https://hnm.1cdn.vn/2023/05/19/hanoimoi.com.vn-uploads-images-tunglam-2023-05-19-_a264.jpg?fbclid=IwAR1VbuUh_erWgoHZnahRF-suvE7PyRP1q8AzPoC9oBdWyUqSNPMHctj796Y);
+    min-height: 480px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    transition: all 0.5s
+    
+}
+header.sticky{
+    background: #fff;
+    opacity: 0.9;
+    padding: 15px 0px;
+    box-shadow: 0px 5px 15pc rgba(0, 0, 0,0.5);
+
+}
+header.sticky #main-menu a{
+    color: #000;
+}
+header.sticky #main-menu a:hover{
+    color: #0da3e9;
+}
+header.sticky .container #main-menu li:hover .sub-menu {
+    background-color: rgb(255, 255, 255, 0.9);
+    height: auto;
+}
+#content p{
+    margin-bottom: 1.2rem;
+}
+.container{
+    margin: auto ;
+}
+#toggle {
+    display: none;
+    background: #353b48;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    #main-menu {
+        flex-direction: column; 
+       
+    }
+    #main-menu li {
+        background: #080808;
+        background-size: auto;
+        color: #000;
+    }
+    
+    #toggle {
+        display: block;
+    }
+    nav {
+        display: none;
+        
+    }
+    
+}
+
+.div-content {
+	padding-top: 20px;
+	width: 85%;
+	text-align: left;
+	margin: 0 auto;
+}
+.div-content p {
+    margin-bottom: 15px;
+}
+.div-content img {
+    width: 100%;
+}
+.img-div-content {
+    padding: 20px 0;
+}
+
+div.block-post-title > div > h4 {
+	padding-top: 20px;
+}
+.col-md-6-custom {
+	padding-right: 0px;
+    padding-left: 0px;
+}
+.block-post-title {
+	margin: 0 0 20px;
+}
+
+.thumbnail-custom {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+}
+
+@media (max-width: 991px) {
+  
+	.form-title {
+		width: 100%;
+	}
+    
+
+	.style-icon i {
+		padding-right: 5px;
+	}
+    .div-content a {
+        word-wrap: break-word;
+    }
+}
+
+@media (max-width: 767px) {
+    .div-content {
+        width: 100%;    }
+}
+

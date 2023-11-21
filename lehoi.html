@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lễ hội</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">    
+        <link rel="stylesheet" type="text/css" href="lehoi.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Itim&family=Patrick+Hand&family=Tilt+Prism&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+        <link rel="icon" type="image/png" href="image/lehoi.png"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="menu">
+                <nav class="navbar navbar-expand-lg bg-light justify-content-center ">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="trangchu.html">Trang chủ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="dacsan.html">Đặc sản</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="NoiBat.html" id="active">Nổi bật</a>
+                        <ul class="submenu">
+                            <li class="na"><a href="Helio1.html" id="ma">Hè rực rỡ với HELIO KIDS DANCE 2023</a></li>
+                            <li class="na"><a href="phaohoa.html" id="ma">TOP các địa điểm xem pháo hoa Đà Nẵng (DIFF 2023) CỰC ĐỈNH</a></li>
+                            <li class="ne"><a href="#" id="active">Tất tần tật Lễ hội mùa hè Đà Nẵng 2023 tại Sun World Bà Nà Hills và Asia Park</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item" id="tnghiem">
+                        <a class="nav-link" href="duthuyen.html">Trải nghiệm</a>
+                        <ul class="submenu" id="tnghiem">
+                            <li class="na"><a href="duthuyen.html" id="ma">Du thuyền sông Hàn</a></li>
+                            <li class="ne"><a href="truyenthong.html" id="ma">Truyền thống</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item" id="pox">
+                        <a class="nav-link" href="review.html">Giới thiệu</a>
+                        <ul class="submenu" id="pox">
+                            <li class="na"><a href="review.html" id="ma">Dịch vụ</a></li>
+                            <li class="ne"><a href="congty.html" id="ma">Công ty</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="http://localhost/dangnhap/register.php">Chuyến đi</a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <div class="modau">
+                    LỄ HỘI MÙA HÈ 2023
+                </div>
+                </div>
+                <div class="content">
+                    <div data-aos="zoom-in" data-aos-duration="2000">
+                        <div class="gioithieu">
+                            Hấp dẫn mùa hè 2023                      
+                        </div>
+                        <div class="hinh">
+                            <img src="https://ngochuong.vn/upload/image/data/Nhung/Linh-tinh/cong-vien-chau-a-tai-xuat-sau-4-thang-tam-dung-hoat-dong-02-f6e.jpg" alt="item" id="hinh">
+                        </div>
+                        <div class="next" style="padding-top: 20px;">
+                            <span style="padding-left: 40px;">
+                                Nhiều hoạt động, sự kiện hấp dẫn được thành phố triển khai để thu hút khách trong nước và ngoài nước du lịch, 
+                                tham quan nghỉ dưỡng trong mùa hè - mùa du lịch 2023. 
+                            </span>
+                        </div>
+                    </div>
+
+                    <ul class="mucluc" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="menuform">
+                          <div class="open">
+                            Mục lục
+                          </div>
+                          <li id="mucluc"> <a id="mucluc" href="#phaohoa">LỄ HỘI PHÁO HOA QUỐC TẾ ĐÀ NẴNG (DIFF 2023)</a></li>
+                          <li id="mucluc"> <a id="mucluc" href="#Bana">BÀ NÀ WOW FESTIVAL</a></li>
+                          <li id="mucluc"> <a id="mucluc" href="#hanquoc">LỄ HỘI VĂN HÓA HÀN QUỐC – KOREAN FEST</a></li>
+                          <li id="mucluc"> <a id="mucluc" href="#bia">“VUI KHÔNG KHOẢNG CÁCH” VỚI LỄ HỘI ẨM THỰC VÀ BIA B’ESTIVAL</a></li>
+                          <li id="mucluc"> <a id="mucluc" href="#lovesong">LOVE SONGS – LOVE VIETNAM</a></li>
+                          <li id="mucluc"> <a id="mucluc" href="#phap">LỄ HỘI VĂN HÓA PHÁP – FRENCH FEST</a></li>
+                          <li id="mucluc"> <a id="mucluc" href="#anhsang">LỄ HỘI ÁNH SÁNG – LIGHT FESTIVAL</a></li>
+                          <li id="mucluc"> <a id="mucluc" href="#dulichbien">CHƯƠNG TRÌNH KHAI TRƯƠNG MÙA DU LỊCH BIỂN</a></li>
+                          <li id="mucluc"> <a id="mucluc" href="#IRONMAN">CUỘC THI IRONMAN 70.3 VIỆT NAM</a></li>
+                          <li id="mucluc"> <a id="mucluc" href="#lienhoan">LIÊN HOAN PHIM CHÂU Á</a> </li>
+                          <li id="mucluc"> <a id="mucluc" href="#dulichgolf">LỄ HỘI DU LỊCH GOLF</a> </li>
+                          <li id="mucluc"> <a id="mucluc" href="#marathon">CUỘC THI MARATHON QUỐC TẾ</a> </li>
+                        </div>
+                      </ul>
+
+                    <div data-aos="flip-left" data-aos-duration="1000">
+                        <div class="tieude" id="phaohoa">
+                            LỄ HỘI PHÁO HOA QUỐC TẾ ĐÀ NẴNG (DIFF 2023)
+                        </div>
+                        <div class="hinh">
+                            <img src="https://danangfantasticity.com/wp-content/uploads/2023/05/top-cac-dia-diem-xem-phao-hoa-da-nang-diff-2023-cuc-dinh-danangfantasticity.jpg" alt="item" id="hinh">
+                        </div>
+                        <div class="tiep">
+                        <div class="tieptheo">
+                            <b>Địa điểm:</b> Sân khấu pháo hoa sông Hàn, đường Trần Hưng Đạo, Đà Nẵng<br>
+                            <b>Thời gian:</b> 20h00 – 22h00 
+                        </div>
+                        </div>
+                        <div class="next">
+                            <span style="padding-left: 40px;">
+                                Với chủ đề “Thế giới không khoảng cách”, DIFF 2023 diễn ra từ ngày 2-6 đến 8-7-2023 gồm: Cuộc thi Trình diễn pháo hoa và các hoạt động đồng hành.<br> 
+                            </span>
+                            <span style="padding-left: 40px;">
+                                Địa điểm bắn pháo hoa tại khu vực Cảng Sông Hàn. Khán đài chính và sân khấu được bố trí tại vỉa hè đường Trần Hưng Đạo, 
+                                đối diện khu vực bắn trên nền tảng của sân khấu đã sử dụng tại các kỳ DIFF trước.<br>                            
+                            </span>
+                            <span style="padding-left: 40px;">
+                                Trong đó, Cuộc thi Trình diễn pháo hoa gồm 7 đội thi quốc tế và đội chủ nhà Việt Nam, trình diễn trong 5 đêm. 
+                                Mỗi đội tham gia trình diễn trong khoảng từ 20 – 22 phút (không được dưới 20 phút và không quá 22 phút).<br> 
+                            </span>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <div class="tieude" id="Bana">
+                            BÀ NÀ WOW FESTIVAL
+                        </div>
+                        <div class="hinh">
+                            <img src="https://danangfantasticity.com/wp-content/uploads/2023/05/ba-na-wow-summer-festival-ruc-re-mua-he-tai-sun-world-ba-na-hills-danang.jpg" alt="item" id="hinh">
+                        </div>
+                        <div class="tiep">
+                        <div class="tieptheo">
+                            <b>Địa điểm:</b> Sun World Bà Nà Hills.<br>
+                            <b>Giá vé vào cổng:</b> Từ 600.000 VNĐ đến 900.000 VNĐ 
+                        </div>
+                        </div>
+                        <div class="next">
+                            <span style="padding-left: 40px;">
+                                Sau thành công của Lễ hội Té nước Songkran (Thái Lan) diễn ra hồi tháng 4, 
+                                Sun World Ba Na Hills dịp hè này tiếp tục thiết đãi du khách những lễ hội đặc sắc đến từ nhiều quốc gia như 
+                                Đức, Hàn Quốc, Pháp, mang đến những trải nghiệm mới mẻ và ấn tượng cho mọi lứa tuổi. 
+                                Không chỉ là khám phá, giao lưu văn hóa đa quốc gia, đây còn là cơ hội để du khách thưởng thức tinh hoa ẩm thực thế giới, 
+                                bùng nổ cùng vô số hoạt động vui chơi giải trí xuyên ngày đêm. Còn chần chừ gì mà chưa đến ngay Sun World Ba Na Hills!<br> 
+                            </span>
+                        </div>
+                    </div>
+
+                    <div data-aos="zoom-out" data-aos-duration="1000">
+                        <div class="tieude" id="hanquoc">
+                            LỄ HỘI VĂN HÓA HÀN QUỐC – KOREAN FEST
+                        </div>
+                        <div class="hinh">
+                            <img src="https://banahills.sunworld.vn/wp-content/uploads/2023/05/shutterstock_91429499-2048x1365.jpg" alt="item" id="hinh">
+                        </div>
+                        <div class="tiep">
+                        <div class="tieptheo">
+                            <b>Địa điểm:</b> Quảng trường Nhật Thực.<br>
+                            <b>Thời gian:</b> Từ 01.06 đến 30.06 
+                        </div>
+                        </div>
+                        <div class="next">
+                            <span style="padding-left: 40px;">
+                                Hấp dẫn nhất có lẽ là Lễ hội Văn hóa Hàn Quốc, diễn ra tại Quảng trường Nhật Thực với chuỗi hoạt động vô cùng mới mẻ và cuốn hút, 
+                                từ ngày 1/6 đến 30/6 như: Lễ hội Gà Bia với combo ưu đãi hấp dẫn và bia miễn phí cho du khách từ 18 tuổi trở lên; 
+                                Mukbang Challenge: Thử thách ăn combo Gà – Bia; Cuộc thi Kpop Dance Kontest trên Tiktok; 
+                                Minishow Kpop với các nhóm nhảy hàng đầu, cover các bản hit của xứ Kim Chi… 
+                                Ngoài ra còn có vô vàn các trò chơi độc đáo, hấp dẫn mang đậm nét văn hóa Hàn Quốc và Việt Nam…
+                            </span>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <div class="tieude" id="bia" style="text-transform: uppercase;">
+                            “Vui không khoảng cách” với Lễ hội Ẩm thực và Bia B’estival
+                        </div>
+                        <div class="hinh">
+                            <img src="https://danangfantasticity.com/wp-content/uploads/2020/07/sun-world-ba-na-hills-le-hoi-am-thuc-va-bia-16-7-5-9-2020-09.jpg" alt="item" id="hinh">
+                        </div>
+                        <div class="tiep">
+                        <div class="tieptheo">
+                            <b>Địa điểm:</b> Quảng trường Beer Plaza.<br>
+                            <b>Thời gian:</b> Từ 30.04 đến 31.08 
+                        </div>
+                        </div>
+                        <div class="next">
+                            <span style="padding-left: 40px;">
+                                Ngay lúc này, khi tháng 5 đang thắp lửa mùa hè trên những cung đường, du khách đến Bà Nà sẽ được “giải cơn khát” với Lễ hội Ẩm thực và Bia B’estival – một lễ hội vốn đã trở thành thương hiệu riêng có của Sun World Ba Na Hills.<br> 
+                            </span>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-down" data-aos-duration="1000">
+                        <div class="tieude" id="lovesong">
+                            LOVE SONGS – LOVE VIETNAM
+                        </div>
+                        <div class="hinh">
+                            <img src="https://images.tkbcdn.com/1/1560/600/Upload/eventcover/2023/05/08/29C8C3.jpg" alt="item" id="hinh">
+                        </div>
+                        <div class="tiep">
+                        <div class="tieptheo">
+                            <b>Địa điểm:</b> Quảng trường Ánh Trăng.<br>
+                            <b>Thời gian:</b> 03.06 
+                        </div>
+                        </div>
+                        <div class="next">
+                            <span style="padding-left: 40px;">
+                                Sau thành công của Love Songs tại Đà Lạt 2022, Love Songs Love VietNam của Hồ Ngọc Hà tiếp tục hành trình với điểm đến Đà Nẵng.
+                                Thông tin Love Songs Love VietNam sẽ diễn ra vào ngày 3/6 tại Đà Nẵng được công bố khiến các khán giả của Hồ Ngọc Hà và Love Songs “đứng ngồi không yên”. 
+                                Sau thành công của Love Songs Đà Lạt đã chinh phục khán giả và tạo nên bước ngoặc mới về một Tour âm nhạc kết hợp du lịch, 
+                                đêm nhạc ở Đà Nẵng càng khiến khán giả mong chờ về một đêm nhạc liveband nhiều cảm xúc cùng những trải nghiệm hoạt động du lịch tại thành phố này.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div data-aos="flip-right" data-aos-duration="1000">
+                        <div class="tieude" id="phap">
+                            LỄ HỘI VĂN HÓA PHÁP – FRENCH FEST
+                        </div>
+                        <div class="hinh">
+                            <img src="https://danangfantasticity.com/wp-content/uploads/2023/05/le-hoi-van-hoa-phap-tai-ba-na.jpg" alt="item" id="hinh">
+                        </div>
+                        <div class="tiep">
+                        <div class="tieptheo">
+                            <b>Địa điểm:</b> Làng Pháp, Quảng trường Nhật Thực.<br>
+                            <b>Thời gian:</b> từ 01.07 đến 31.07
+                        </div>
+                        </div>
+                        <div class="next">
+                            <span style="padding-left: 40px;">
+                                Lễ hội văn hóa Pháp - French Fest hứa hẹn mang đến cho du khách thêm nhiều trải nghiệm thú vị như: Hóa thân thành quý tộc Pháp, 
+                                nhâm nhi ly vang hảo hạng trong không gian lãng mạn tựa cổ tích và tham dự sự kiện “Kỷ niệm 100 năm hầm rượu vang Debay tại Bà Nà”,.. 
+                                Đây sẽ là những trải nghiệm chắc chắn không ít du khách muốn được thử ít nhất một lần.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-down-left" data-aos-duration="1000">
+                        <div class="tieude" id="anhsang">
+                            LỄ HỘI ÁNH SÁNG – LIGHT FESTIVAL
+                        </div>
+                        <div class="hinh">
+                            <img src="https://danangfantasticity.com/wp-content/uploads/2023/05/light-festival-tai-sun-world-ba-na-hils-02-1.jpg" alt="item" id="hinh">
+                        </div>
+                        <div class="tiep">
+                        <div class="tieptheo">
+                            <b>Địa điểm:</b> Quảng trường Hội Tụ.<br>
+                            <b>Thời gian:</b> Từ tháng 6 đến 15.09
+                        </div>
+                        </div>
+                        <div class="next">
+                            <span style="padding-left: 40px;">
+                                Điểm nổi bật của Lễ hội ánh sáng Đà Nẵng chính là hàng trăm mô hình đèn led được tạo thành từ hàng triệu bóng đèn led nhỏ xinh để tạo ra những mô hình tuyệt đẹp.<br>
+                            </span>
+                            <span style="padding-left: 40px;">
+                                Ngoài ra, còn có công nghệ thực tế ảo, mô hình sống động giúp du khách đặc biệt là trẻ em có thể tương tác một cách chân thật nhất.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up-right" data-aos-duration="1000">
+                        <div class="tieude" id="dulichbien">
+                            CHƯƠNG TRÌNH KHAI TRƯƠNG MÙA DU LỊCH BIỂN
+                        </div>
+                        <div class="hinh">
+                            <img src="https://vietnamdailytour.vn/wp-content/uploads/2023/02/Khai-truong-mua-du-lich-bien-nam-2023.jpg" alt="item" id="hinh">
+                        </div>
+                        <div class="tiep">
+                        <div class="tieptheo">
+                            <b>Địa điểm:</b> Công viên Biển Đông, Bán đảo Sơn Trà, các bãi biển Đà Nẵng và Bán đảo Sơn Trà.<br>
+                            <b>Thời gian:</b> Từ 28/04 đến 03/05
+                        </div>
+                        </div>
+                        <div class="next">
+                            <span style="padding-left: 40px;">
+                                Với chủ đề “VŨ ĐIỆU BIỂN XANH”, Chương trình “Khai trương mùa du lịch biển” được kỳ vọng sẽ mang đến cho người dân, 
+                                du khách những trải nghiệm đáng nhớ tại bán đảo Sơn Trà – Lá phổi xanh của thành phố và không gian biển Đà Nẵng đầy sôi động với biển xanh, cát trắng và nắng vàng.
+                            </span>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up-left" data-aos-duration="1000">
+                        <div class="tieude" id="IRONMAN">
+                            CUỘC THI IRONMAN 70.3 VIỆT NAM
+                        </div>
+                        <div class="hinh">
+                            <img src="https://irace.vn/wp-content/uploads/2019/08/IRONMAN70-3Vietnam.jpg" alt="item" id="hinh">
+                        </div>
+                        <div class="tiep">
+                        <div class="tieptheo">
+                            <b>Địa điểm:</b> Bãi biển Hyatt Regency.<br>
+                            <b>Thời gian:</b> Từ 04 - 07/05
+                        </div>
+                        </div>
+                        <div class="next">
+                            <span style="padding-left: 40px;">
+                                IRONMAN 70.3 là cuộc thi 3 môn phối hợp lớn nhất Việt Nam diễn ra nhiều năm qua tại Đà Nẵng. 
+                                Năm nay giải có sự tham gia tranh tài của hơn 3.000 vận động viên đến từ 62 quốc gia trên thế giới.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div data-aos="flip-up" data-aos-duration="1000">
+                        <div class="tieude" id="lienhoan">
+                            LIÊN HOAN PHIM CHÂU Á
+                        </div>
+                        <div class="hinh">
+                            <img src="https://bcp.cdnchinhphu.vn/334894974524682240/2023/5/6/postcarddanaffnetpac28thfeb1140x2748-16833640789811732319735.jpg" alt="item" id="hinh">
+                        </div>
+                        <div class="tiep">
+                        <div class="tieptheo">
+                            <b>Địa điểm:</b> Nhà hát Trưng Vương, Đà Nẵng.<br>
+                            <b>Thời gian:</b> 09/05
+                        </div>
+                        </div>
+                        <div class="next">
+                            <span style="padding-left: 40px;">
+                                Chương trình do Ủy ban nhân dân thành phố Đà Nẵng chỉ đạo, 
+                                Hiệp hội Xúc tiến phát triển Điện ảnh Việt Nam (VFDA) chủ trì, phối hợp Sở Văn hóa 
+                                và Thể thao thành phố Đà Nẵng cùng các sở ngành, các tổ chức thực hiện.<BR>
+                            </span>
+                            <span style="padding-left: 40px;">
+                                Tham gia sự kiện có hơn 1.000 đại biểu, khách mời là lãnh đạo các bộ, ban, ngành, các nghệ sĩ, 
+                                nhà sản xuất, đạo diễn, diễn viên, các nhà hoạt động điện ảnh…
+                            </span>
+                        </div>
+                    </div>
+
+                    <div data-aos="flip-down" data-aos-duration="1000">
+                        <div class="tieude" id="dulichgolf">
+                            LỄ HỘI DU LỊCH GOLF 
+                        </div>
+                        <div class="hinh">
+                            <img src="https://image.nhandan.vn/w800/Uploaded/2023/jqmvlqmc/2022_08_27/dn-1-4997.jpg" alt="item" id="hinh">
+                        </div>
+                        <div class="tiep">
+                        <div class="tieptheo">
+                            <b>Địa điểm:</b> Công viên APEC, sân golf BRG Danang Golf Resort.<br>
+                            <b>Thời gian:</b> Từ 25/08 - 31/08
+                        </div>
+                        </div>
+                        <div class="next">
+                            <span style="padding-left: 40px;">
+                                Lễ hội Du lịch Golf Đà Nẵng 2023 được tổ chức với nhiều hoạt động hấp dẫn bên lề như: Hội thảo Golf Quốc tế 2023; Triển lãm gian hàng golf; 
+                                Trình diễn thời trang golf; Trải nghiệm và tập thử tại các sân Golf… Trọng tâm của Lễ hội là Giải golf 
+                                Phát triển châu Á BRG Open Golf Championship Danang 2023 được tổ chức lần thứ 2 tại Đà Nẵng 
+                                với gần 150 vận động viên golf chuyên nghiệp của Châu Á và Việt Nam.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div data-aos="zoom-in-up" data-aos-duration="1000">
+                        <div class="tieude" id="marathon">
+                            CUỘC THI MARATHON QUỐC TẾ 
+                        </div>
+                        <div class="hinh">
+                            <img src="https://danangfantasticity.com/wp-content/uploads/2022/03/cuoc-tro-lai-ghi-dau-an-cua-cuoc-thi-marathon-quoc-te-da-nang-08-1024x683.jpg" alt="item" id="hinh">
+                        </div>
+                        <div class="tiep">
+                        <div class="tieptheo">
+                            <b>Địa điểm:</b> Công viên Biển Đông.<br>
+                            <b>Thời gian:</b> 06/08
+                        </div>
+                        </div>
+                        <div class="next">
+                            <span style="padding-left: 40px;">
+                                Một trong những đường chạy Marathon đẹp nhất khu vực tại thành phố du lịch đáng đến nhất Việt Nam, 
+                                nơi quy tụ hàng ngàn ngàn vận động viên trong và ngoài nước đến tham gia hằng năm; 
+                                con người cùng vẻ đẹp của Đà Nẵng sẽ khiến cuộc đua trở thành một trong những giải chạy marathon mà bạn không thể bỏ lỡ vào mùa hè này.
+                            </span>
+                        </div>
+                    </div>
+
+                        <div data-aos="fade-up">
+                            <div class="gioithieu" style="font-size: 27px;">
+                              Có thể bạn cũng thích
+                            </div>
+                            <div class="container text-center">
+                              <div class="row">
+                                <div class="col">
+                                  <div class="thumbnail"><a href="dacsan.html#luuy">
+                                    <img src="https://vtv1.mediacdn.vn/2021/7/17/tphcm-sau-lenh-gian-cach-xa-hoi-sieu-thi-dong-nghet-can-hang-8-1622370838541-1624865445179343645463-16265041099871186533765.jpeg" alt="item" style="height: 400px; width: 100%;">
+                                    <p>
+                                      Kinh nghiệm khi mua đặc sản tại Đà Nẵng
+                                    </p>
+                                  </a>
+                                  </div>
+                                </div>
+                                <div class="col">
+                                  <div class="thumbnail"><a href="trangchu.html#cf">
+                                    <img src="https://media.mia.vn/uploads/blog-du-lich/tim-ve-chon-an-yen-tai-tra-quan-goc-nha-tui-minh-giua-long-thanh-pho-05-1636474237.jpg" alt="item" style="height: 400px; width: 100%;">
+                                    <p>
+                                       Chill chill vào buổi chiều cùng các địa điểm thú vị này thôi!
+                                    </p>
+                                  </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col">
+                                  <div class="thumbnail"><a href="baotang.html">
+                                    <img src="https://hidanang.vn/uploads/images/B%E1%BA%A3o%20t%C3%A0ng%20M%E1%BB%B9%20thu%E1%BA%ADt/bang-tang-my-thuat-3.jpg" alt="item" style="height: 260px;width: 100%;">
+                                    <p id="parr">
+                                        Hình xinh lung linh cùng bảo tàng Mỹ thuật Đà Nẵng
+                                    </p>
+                                  </a>
+                                  </div>
+                                </div>
+                                <div class="col">
+                                  <div class="thumbnail"><a href="phaohoa.html">
+                                    <img src="https://bcp.cdnchinhphu.vn/Uploaded/nguyenthikimlien/2017_12_19/L%E1%BB%85-h%E1%BB%99i-ph%C3%A1o-hoa-qu%E1%BB%91c-t%E1%BA%BF-%C4%90%C3%A0-N%E1%BA%B5ng-2017.jpg" alt="item" style="height: 260px;width: 100%;">
+                                    <p id="par">
+                                      Xem pháo hoa ở đâu? Khám phá ngay!
+                                    </p>
+                                  </a>
+                                  </div>
+                                </div>
+                                <div class="col">
+                                  <div class="thumbnail"><a href="trangchu.html#cf">
+                                    <img src="https://media.mia.vn/uploads/blog-du-lich/kham-pha-tra-thao-moc-da-nang-om-tea-coffee-an-minh-duoi-chan-nui-son-tra-7-1636888606.jpg" alt="item" style="height: 260px;width: 100%;">
+                                    <p id="par">
+                                      Bật mí các quán cafe "xịn xò"
+                                    </p>
+                                  </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="khung">
+                            <div class="testimonial">
+                              <div class="gioithieu">
+                                Bình luận
+                              </div>
+                                <div class="small-contaianer" style="padding-top: 20px;">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <p class="danhgia">Bổ ích và thú vị</p>
+                                            <img src="image/nguoi1.jpg">
+                                            <h4>Hoàng Phương</h4>
+                                        </div>
+                    
+                                        <div class="col-3">
+                                            <p class="danhgia">Đúng thông tin mà tôi cần!</p>
+                                            <img src="image/nguoi2.jpg">
+                                            <h4>Văn Nam</h4>
+                                        </div>
+                    
+                                        <div class="col-3">
+                                            <p class="danhgia">Mình phải đi du lịch Đà Nẵng mới được</p>
+                                            <img src="image/nguoi3.jpg">
+                                            <h4>Sĩ Hùng</h4>
+                                        </div>
+                                        <div class="col-3">
+                                            <p class="danhgia">Wow!</p>
+                                            <img src="image/nguoi4.jpg">
+                                            <h4>Linh Nhi</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                </div>
+        </div>
+        <footer class="text-center text-lg-start bg-light text-muted">
+            <div class="text-center p-4" style="background-color: rgba(118, 224, 229, 0.05);">
+              © 2023 Copyright Q&T
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </body>
+    <script>
+        AOS.init();
+      </script>
+</html>

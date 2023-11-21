@@ -1,0 +1,353 @@
+.nav-link{
+    font-size: 20px;
+    font-weight: 600;
+    color:white;
+}
+.nav-link:hover {
+    color: #73faea;
+    text-decoration: under-line;
+}
+nav{
+    background-image: url(https://thanhlapdoanhnghiepvn.vn/wp-content/uploads/2018/08/c8727ed17ccbc2050a29c97fa9215ae0.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#active{
+    color:#73faea;
+}
+.modau{
+    text-align: center;
+    color: WHITE;
+    font-weight: 600;
+    font-size: 60px;
+    padding: 20px;
+    font-family: 'Tilt Prism', cursive;
+    background-image: url(https://thanhlapdoanhnghiepvn.vn/wp-content/uploads/2018/08/c8727ed17ccbc2050a29c97fa9215ae0.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width:100%;
+    height: 650px;
+    font-style: italic;
+}
+.na{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d1cfcf;
+}
+.ne{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#ma{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar-nav li{
+    position: relative;
+}
+.navbar-nav ul.submenu{
+    position: absolute;
+    background-image: url(https://thanhlapdoanhnghiepvn.vn/wp-content/uploads/2018/08/c8727ed17ccbc2050a29c97fa9215ae0.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 15px 15px;
+    list-style: none;
+    width: 400px;
+    display: none;
+}
+.navbar-nav ul.submenu#pox{
+    position: absolute;
+    background-image: url(https://thanhlapdoanhnghiepvn.vn/wp-content/uploads/2018/08/c8727ed17ccbc2050a29c97fa9215ae0.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 15px 15px;
+    list-style: none;
+    width: 90px;
+    display: none;
+}
+.navbar-nav .nav-item#tnghiem:hover>ul.submenu{
+    display: block;
+}
+.navbar-nav ul.submenu#tnghiem{
+    position: absolute;
+    background-image: url(https://thanhlapdoanhnghiepvn.vn/wp-content/uploads/2018/08/c8727ed17ccbc2050a29c97fa9215ae0.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 15px 15px;
+    list-style: none;
+    width: 200px;
+    display: none;
+}
+.navbar-nav .nav-item#pox:hover>ul.submenu{
+    display: block;
+}
+.navbar-nav .nav-item:hover>ul.submenu{
+    display: block;
+}
+#ma:hover{
+    color:#73faea;
+}
+.gioithieu{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 27px;
+    padding-top:40px ;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.tieptheo{
+    color: #b8b8b8;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+    font-style: italic;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.thumbnail {
+    position: relative;
+    overflow: hidden; 
+    border: 1px solid #e5e5e5; 
+    box-shadow: 0 0 5px #555;
+}
+.thumbnail img {
+    width: 100%; 
+    height: 100%;  
+    transition-duration: 0.5s;
+        -webkit-transition-duration: 0.5s; 
+        -moz-transition-duration: 0.5s; 
+        -o-transition-duration: 0.5s;
+        -ms-transition-duration: 0.5s;
+}
+.thumbnail img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2); 
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    cursor: pointer; 
+}
+.thumbnail p {
+    position: absolute;
+    top: 220px;
+    left: 0;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 17px;
+    text-align: left;
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: transparent;
+    transition-duration: 0.3s;
+}
+#titt{
+    position: absolute;
+    top: 190px;
+    left: 0;
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: transparent;
+    transition-duration: 0.3s;
+}
+.thumbnail:hover p#titt {
+    position: absolute;
+    top: 180px;
+    left: 0;
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: transparent;
+}
+.thumbnail:hover p {
+    position: absolute;
+    top: 210px;
+    left: 0;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 17px;
+    text-align: left;
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: transparent;
+}
+#par {
+    position: absolute;
+    top: 220px;
+    left: 0;
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: transparent;
+    transition-duration: 0.3s;
+}
+.thumbnail:hover p#par {
+    position: absolute;
+    top: 210px;
+    left: 0;
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: transparent;
+}
+#parr {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: transparent;
+    transition-duration: 0.3s;
+}
+.thumbnail:hover p#parr {
+    position: absolute;
+    top: 190px;
+    left: 0;
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: transparent;
+}
+.box{
+    text-align: center;     
+    position: relative;    
+    overflow: hidden;
+    box-shadow: 0 0 5px #555;
+}
+.box img{
+    width: 100%;
+    height: auto;
+}
+.box .box-content{
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgba(35, 35, 35, 0.7);
+    transform: rotate(0deg) scale(0);
+    transition: all 1.1s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+    }
+.box:hover .box-content{
+    transform: rotate(360deg) scale(1);
+    transform-origin: -10% -20% 0;
+    }
+.box .title{
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #fff;
+}
+.box .description{
+    font-size: 14px;
+    margin-top: 20px;
+}  
+@media only screen and (max-width:990px){     
+.box{ 
+    margin-bottom: 30px; 
+}  
+}
+@media only screen and (max-width:360px){
+.box .box-content{ 
+    padding: 0 5px; 
+}
+.box .title{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}   
+}
+#des{
+    text-align: left;
+}
+#tit{
+    padding-top: 30px;
+}
+.row{
+    padding: 20px;
+    font-size: 20px;   
+}
+.next{
+    font-style: italic;
+    font-size: 20px;
+}
+#lq {
+    position: absolute;
+    top: 350px;
+    left: 0;
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: transparent;
+    transition-duration: 0.3s;
+}
+.thumbnail:hover p#lq {
+    position: absolute;
+    top: 340px;
+    left: 0;
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+
+
+
+
+  

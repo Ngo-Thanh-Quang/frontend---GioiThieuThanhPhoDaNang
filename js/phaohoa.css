@@ -1,0 +1,96 @@
+
+
+body {
+    font-family: "Cabin";
+    background-color: #15062b;
+    color: #fff;
+}
+
+p {
+    font-family: "Cabin";
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+img {
+    width: 100%;
+}
+
+
+
+
+.big-font-size {
+    font-size: 72px;
+    font-family: "Yanone Kaffeesatz";
+    line-height: 80px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.title-content {
+    font-family: "Yanone Kaffeesatz";
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 1.8;
+    line-height: 40px;
+}
+
+.text-center.event-new {
+    height: 48px;
+    overflow: hidden;
+}
+.text-center.event-new marquee {
+    background-image: linear-gradient(to right, #e436aa, #2c1b76);
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 0px;
+    font-family: "Cabin";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    white-space:nowrap;
+}
+.fa.fa-bell-o {
+    transform: rotate(30deg);
+    margin-right: 10px;
+}
+.textwidget .fa {
+    margin-right: 10px;
+}
+
+a.btn-custom-style {
+    border-radius: 0px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-family: "Yanone Kaffeesatz";
+    font-weight: bold;
+    border-style: solid;
+    color: #fff;
+    border-width: 2px;
+    border-image-slice: 1;
+    border-style: solid;
+    border-image-source: linear-gradient(16deg, #e436aa, #2c1b76);
+    padding: 9px 15px 3px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-color: #fff;
+}
+
+.border-dot {
+    border: 0px;
+    border-bottom: 3px;
+    border-top: 3px;
+    border-style: dotted;
+}
+.page-header-text {
+    width: 70%;
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+

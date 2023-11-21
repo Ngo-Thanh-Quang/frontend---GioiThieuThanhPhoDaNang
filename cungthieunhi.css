@@ -1,0 +1,329 @@
+.nav-link{
+    font-size: 20px;
+    font-weight: 600;
+    color:white;
+}
+.nav-link:hover {
+    color: #73faea;
+    text-decoration: under-line;
+}
+.navbar{
+    text-align: center;
+}
+nav{
+    background-image: url(https://statics.vinpearl.com/cung-van-hoa-thieu-nhi-da-nang-6_1629964773.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#active{
+    color:#73faea;
+}
+.modau{
+    text-align: center;
+    color: WHITE;
+    font-weight: 600;
+    font-size: 60px;
+    padding: 20px;
+    font-family: 'Tilt Prism', cursive;
+    background-image: url(https://statics.vinpearl.com/cung-van-hoa-thieu-nhi-da-nang-6_1629964773.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width:100%;
+    height: 650px;
+    font-style: italic;
+}
+.na{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #636362;
+}
+.ne{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#ma{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar-nav li{
+    position: relative;
+}
+.navbar-nav ul.submenu{
+    position: absolute;
+    background-image: url(https://statics.vinpearl.com/cung-van-hoa-thieu-nhi-da-nang-6_1629964773.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 15px 15px;
+    list-style: none;
+    width: 400px;
+    display: none;
+}
+.navbar-nav .nav-item:hover>ul.submenu{
+    display: block;
+}
+#ma:hover{
+    color:#73faea;
+}
+.navbar-nav ul.submenu#pox{
+    position: absolute;
+    background-image: url(https://statics.vinpearl.com/cung-van-hoa-thieu-nhi-da-nang-6_1629964773.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 15px 15px;
+    list-style: none;
+    width: 90px;
+    display: none;
+}
+.navbar-nav .nav-item#tnghiem:hover>ul.submenu{
+    display: block;
+}
+.navbar-nav ul.submenu#tnghiem{
+    position: absolute;
+    background-image: url(https://statics.vinpearl.com/cung-van-hoa-thieu-nhi-da-nang-6_1629964773.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 15px 15px;
+    list-style: none;
+    width: 200px;
+    display: none;
+}
+.navbar-nav .nav-item#pox:hover>ul.submenu{
+    display: block;
+}
+.gioithieu{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 27px;
+    padding-top:40px ;
+    text-align: center;
+}
+.tieptheo{
+    color: #6e6e6e;
+    font-size: 17px;
+    font-family: 'Itim', cursive;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.row{
+    padding: 20px;
+    font-size: 20px;   
+}
+#hinh{
+    width: 80%;
+    height:auto;
+    padding-top: 30px;
+}
+.hinh{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.next{
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+    font-style: italic;
+    padding-bottom: 10px;
+    text-align: left;
+    color: #454444;
+}
+.tieude{
+    font-size: 23px;
+    font-family: 'Itim', cursive;
+    font-weight: 800px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+.diachi{
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+    font-style: italic;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 60px;
+}
+a{
+    text-decoration: none;
+    color:rgb(149, 149, 149);
+}
+a:hover{
+    color: rgb(172, 169, 169);
+}
+.thumbnail {
+    position: relative;
+    overflow: hidden; 
+    border: 1px solid #e5e5e5; 
+}
+.thumbnail img {
+    width: 100%; 
+    height: 100%;  
+    transition-duration: 0.5s;
+        -webkit-transition-duration: 0.5s; 
+        -moz-transition-duration: 0.5s; 
+        -o-transition-duration: 0.5s;
+        -ms-transition-duration: 0.5s;
+}
+.thumbnail img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2); 
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    cursor: pointer; 
+}
+.thumbnail p {
+    position: absolute;
+    top: 350px;
+    left: 0;
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: transparent;
+    transition-duration: 0.3s;
+}
+.thumbnail:hover p {
+    position: absolute;
+    top: 340px;
+    left: 0;
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: transparent;
+}
+#par {
+    position: absolute;
+    top: 220px;
+    left: 0;
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: transparent;
+    transition-duration: 0.3s;
+}
+.thumbnail:hover p#par {
+    position: absolute;
+    top: 210px;
+    left: 0;
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: transparent;
+}
+#parr {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: transparent;
+    transition-duration: 0.3s;
+}
+.thumbnail:hover p#parr {
+    position: absolute;
+    top: 190px;
+    left: 0;
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: transparent;
+}
+.khung{
+    background-color: white;
+   }
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    transition-duration: 0.3s;
+}
+.testimonial .col-3 img{
+    width:50px ;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #232323;
+}
+.testimonial .col-3 .h4{
+  font-weight: 600;
+  color:#00055c;
+  font-size: 16px;  
+}
+.mucluc{
+    background-color: #FFFAF0;
+    list-style: decimal;
+}
+#mucluc{
+    color: #696969;
+    text-decoration: none;
+    padding: 10px 10px 10px 0;
+    font-size: 20px;
+    transition: 0.25s ease-in-out;
+}
+#quanan{
+    color: #696969;
+    text-decoration: none;
+    list-style:square ;
+}
+.menuform{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+#mucluc:hover{
+    color: #B5B5B5;
+}
+.open{
+    font-size: 25px;
+    color: #696969;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
